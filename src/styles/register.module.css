@@ -1,0 +1,43 @@
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register__container {
+  width: 320px;
+  height: auto;
+}
+.register__name {
+  display: flex;
+}
+.register__name {
+  display: flex;
+  justify-content: space-between;
+}
+.register__name > .form__input {
+  width: 45%;
+}
+
+.form__input {
+  width: 100%;
+  border: 1px solid #555;
+  outline: none;
+  border-radius: 10px;
+  padding: 7px;
+  margin: 12px 0;
+}
+
+.form__btn {
+  width: 100%;
+  padding: 10px 0;
+  background-color: blue;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.register__link {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
