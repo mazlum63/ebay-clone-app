@@ -37,7 +37,7 @@ export default function Signin() {
             </div>
         ) : (
             <div className={style.register__link}>
-                <p style={{ marginRight: 10 }}>You don't have an account?</p>
+                <p style={{ marginRight: 10 }}>You don&apos;t have an account?</p>
                 <Link href="/register"><span style={{ color: "blue" }}>Register here!</span></Link>
             </div>
         )
